@@ -1,0 +1,19 @@
+{
+    "name": "Website_blocker",
+    "description": "to block unwanted sites",
+    "version": "1.0",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": false
+    },
+    "permissions": [
+        "webNavigation",
+        "tabs"
+    ]
+}

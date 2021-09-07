@@ -1,0 +1,14 @@
+.container{
+    height: 250px;
+}
+
+.list{
+    height: 85%;
+    overflow: auto;
+}
+#errorMsg{
+    overflow: auto;
+}
+.input-box{
+    margin: auto;
+}
